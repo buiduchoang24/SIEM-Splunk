@@ -17,6 +17,8 @@ sudo /opt/splunk/bin/splunk start --accept-license
 ```
 - And you will have some command lines like this
 ![image](https://github.com/buiduchoang24/Splunk/assets/166605385/9dbb629c-6473-48fb-a8d1-355101327325)
-- Use a machine that has the same ip address of Ubuntu Server to run Web UI
+- Use another machine that has the same ip address of Ubuntu Server to run Web UI, it will show like this
+![image](https://github.com/buiduchoang24/Splunk/assets/166605385/59851436-dd32-4e16-82ae-2c3920282b33)
+
 
 ## Splunk Universal Forwarder
