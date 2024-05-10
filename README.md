@@ -1,6 +1,8 @@
 # Splunk
 
-## Splunk Enterprise Server
+## Set up Splunk Server and Forwarder
+
+### Splunk Enterprise Server
 - I use Ubuntu Server 22.04 for this.
 - Use this command line to get splunk from its download page<br>
 ```bash
@@ -19,9 +21,13 @@ sudo /opt/splunk/bin/splunk start --accept-license
 ![image](https://github.com/buiduchoang24/Splunk/assets/166605385/9dbb629c-6473-48fb-a8d1-355101327325)
 - Use another machine that has the same ip address of Ubuntu Server to run Web UI, it will show like this
 ![image](https://github.com/buiduchoang24/Splunk/assets/166605385/59851436-dd32-4e16-82ae-2c3920282b33)
+- Go to Settings -> Forwading and Receiving -> Configure receiving
+![image](https://github.com/buiduchoang24/Splunk/assets/166605385/0e9c09ae-c25e-4e3f-9cc6-56d82f5269bb)
+- Add port 9997, and in Universal Forwarder Setup, session Receiving Indexers, you must set port to 9997 too
+![image](https://github.com/buiduchoang24/Splunk/assets/166605385/df86ce9f-1abf-40f9-9d40-61b0b2db6252)
 
 
-## Splunk Universal Forwarder
+### Splunk Universal Forwarder
 - First of all, when you run a download file, you will encounter this, please choose **An on-premises Splunk Enterprise instance** and Next <br>
 ![image](https://github.com/buiduchoang24/Splunk/assets/166605385/612a29f3-8b58-416d-8a06-9449314f76e2)
 - Then, give the username and password<br>
@@ -37,6 +43,14 @@ sudo /opt/splunk/bin/splunk start --accept-license
 Test-NetConnection -Computername <IP_Address> -port <Port>
 ```
 ![image](https://github.com/buiduchoang24/Splunk/assets/166605385/32f4eaa7-2c2a-4606-a9f2-3954548851d4)
+- Go to Settings -> Forwarder Management, you should see your Universal Forwarder here
+![image](https://github.com/buiduchoang24/Splunk/assets/166605385/6ff06a6d-5ec2-4562-8bfc-b1d35980c44a)
+
+## Add data to Splunk
+
+### Add Data from Forwarder
+- In Web GUI, go to Settings -> Add Data, at here, you 
+
 
 
 
