@@ -28,7 +28,7 @@ sudo /opt/splunk/bin/splunk start --accept-license
 ![image](https://github.com/buiduchoang24/Splunk/assets/166605385/7c51cea7-283f-4708-aea3-5194c113799d)
 - You will need to supply either Deployment Server IP or Indexer IP<br>
 ![image](https://github.com/buiduchoang24/Splunk/assets/166605385/b67c63a9-8860-416a-ad4d-47a1e72c7a8a)
-- Finally, click Install and wait it for finishing>br>
+- Finally, click Install and wait it for finishing<br>
 ![image](https://github.com/buiduchoang24/Splunk/assets/166605385/30c436d8-87e8-4bf4-b469-40ee7de8f484)
 - You can check whether your Splunk Forwarder is running or not by observing in Services or services.msc
 ![image](https://github.com/buiduchoang24/Splunk/assets/166605385/5165d113-6284-4783-a5a7-145cf5f9c0e0)
