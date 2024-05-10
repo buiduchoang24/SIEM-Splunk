@@ -24,7 +24,7 @@ sudo /opt/splunk/bin/splunk start --accept-license
 ## Splunk Universal Forwarder
 - First of all, when you run a download file, you will encounter this, please choose **An on-premises Splunk Enterprise instance** and Next <br>
 ![image](https://github.com/buiduchoang24/Splunk/assets/166605385/612a29f3-8b58-416d-8a06-9449314f76e2)
-- Then, give the username and password
+- Then, give the username and password<br>
 ![image](https://github.com/buiduchoang24/Splunk/assets/166605385/7c51cea7-283f-4708-aea3-5194c113799d)
 - You will need to supply either Deployment Server IP or Indexer IP
 ![image](https://github.com/buiduchoang24/Splunk/assets/166605385/b67c63a9-8860-416a-ad4d-47a1e72c7a8a)
