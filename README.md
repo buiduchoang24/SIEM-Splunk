@@ -1,5 +1,9 @@
 # Splunk
 
+- This is my overall model<br>
+![Untitled Diagram drawio (2)](https://github.com/buiduchoang24/Splunk/assets/166605385/23652eda-5dd1-4e6f-a036-45419ca04b0b)
+
+
 ## Set up Splunk Server and Forwarder
 
 ### Splunk Enterprise Server
