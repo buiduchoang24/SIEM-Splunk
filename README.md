@@ -53,7 +53,33 @@ Test-NetConnection -Computername <IP_Address> -port <Port>
 ## Add data to Splunk
 
 ### Add Data from Forwarder
-- In Web GUI, go to Settings -> Add Data, at here, you 
+- In Web GUI, go to Settings -> Add Data, at here, you can see three methods where you can get data from
+![image](https://github.com/buiduchoang24/Splunk/assets/166605385/5922f123-2187-4ef2-9f31-359fbaf437ee)
+- I will get data from Forwarder first, so I click into it
+- It makes me select the forwarder<br>
+![image](https://github.com/buiduchoang24/Splunk/assets/166605385/94d1cb82-530c-41f4-b52c-98fa9369a103)
+- After I press Next, it has many options for me to choose
+![image](https://github.com/buiduchoang24/Splunk/assets/166605385/b9683a76-81bf-424e-a675-e29fd490dacc)
+- And I choose Window Event Log to monitor
+![image](https://github.com/buiduchoang24/Splunk/assets/166605385/0f805a58-14fc-48a5-afbf-2e3830c0a823)
+- Review what I chose<br>
+![image](https://github.com/buiduchoang24/Splunk/assets/166605385/e54cc06f-5930-4109-a108-f98a4fc2448b)
+
+### Add Data from Upload file
+- Here, I have a dataset from LetDefend
+![image](https://github.com/buiduchoang24/Splunk/assets/166605385/f931a38e-161d-4846-84b1-565cb8bf8c81)
+- And I will upload it to Splunk by following steps, first is choose Upload
+![image](https://github.com/buiduchoang24/Splunk/assets/166605385/93af93b3-65bb-49e1-8067-e310e408864a)
+- Select sources, choose tutorial dataset, then Next, waiting for uploading and Start searching
+![image](https://github.com/buiduchoang24/Splunk/assets/166605385/0b0096e8-c6b6-48e8-92e4-b12adf4d2051)
+- You will see the interface like this<br>
+![image](https://github.com/buiduchoang24/Splunk/assets/166605385/f8adc518-2a49-430d-b8a0-6a97dd0abd1a)
+
+
+
+
+
+
 
 
 
